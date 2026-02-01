@@ -91,7 +91,7 @@ export default function VNModeEditor({ storyline, onChange }: Props) {
           </h3>
           <button onClick={addBackground} className="btn btn-primary btn-sm flex items-center gap-2">
             <i className="fas fa-plus"></i>
-            添加背景
+            <span className="hidden sm:inline">添加背景</span>
           </button>
         </div>
 
@@ -149,7 +149,7 @@ export default function VNModeEditor({ storyline, onChange }: Props) {
           </h3>
           <button onClick={addCharacterSprite} className="btn btn-primary btn-sm flex items-center gap-2">
             <i className="fas fa-plus"></i>
-            添加立绘
+            <span className="hidden sm:inline">添加立绘</span>
           </button>
         </div>
 
@@ -207,7 +207,7 @@ export default function VNModeEditor({ storyline, onChange }: Props) {
           </h3>
           <button onClick={addBGM} className="btn btn-primary btn-sm flex items-center gap-2">
             <i className="fas fa-plus"></i>
-            添加音乐
+            <span className="hidden sm:inline">添加音乐</span>
           </button>
         </div>
 

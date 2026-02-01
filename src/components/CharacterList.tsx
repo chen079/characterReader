@@ -73,7 +73,7 @@ export default function CharacterList({ characters, currentCharacterId, onSelect
                 <h3 className="font-semibold text-lg truncate mb-1">
                   {record.character.name}
                 </h3>
-                <p className="text-sm text-slate-400 line-clamp-2 mb-2">
+                <p className="text-sm text-slate-400 whitespace-pre-wrap break-words mb-2">
                   {record.character.description || '暂无描述'}
                 </p>
                 <div className="flex items-center gap-2 text-xs text-slate-500">

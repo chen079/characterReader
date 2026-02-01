@@ -49,7 +49,7 @@ export default function QuickReplyEditor({ storyline, onChange }: Props) {
         <h3 className="font-medium">快捷回复 ({storyline.quick_replies.length})</h3>
         <button onClick={addReply} className="btn btn-primary flex items-center gap-2">
           <i className="fas fa-plus"></i>
-          添加快捷回复
+          <span className="hidden sm:inline">添加快捷回复</span>
         </button>
       </div>
 

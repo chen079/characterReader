@@ -102,7 +102,7 @@ export default function LorebookEditor({ storyline, onChange }: Props) {
         <h3 className="font-medium">世界书条目 ({storyline.world_info.length})</h3>
         <button onClick={addEntry} className="btn btn-primary flex items-center gap-2">
           <i className="fas fa-plus"></i>
-          添加条目
+          <span className="hidden sm:inline">添加条目</span>
         </button>
       </div>
 

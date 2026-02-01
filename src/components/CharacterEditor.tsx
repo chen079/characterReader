@@ -34,7 +34,7 @@ export default function CharacterEditor({ character, onChange }: Props) {
             className="btn btn-secondary flex items-center gap-2"
           >
             <i className="fas fa-arrow-left"></i>
-            返回故事线列表
+            <span className="hidden sm:inline">返回故事线列表</span>
           </button>
           <div className="h-6 w-px bg-slate-700"></div>
           <h2 className="text-xl font-semibold text-blue-400">
@@ -55,7 +55,7 @@ export default function CharacterEditor({ character, onChange }: Props) {
       <div className="flex gap-2 border-b border-gray-700">
         <button
           onClick={() => setActiveTab('basic')}
-          className={`px-6 py-3 font-medium transition-colors ${
+          className={`px-3 sm:px-6 py-3 font-medium transition-colors ${
             activeTab === 'basic'
               ? 'text-blue-400 border-b-2 border-blue-400'
               : 'text-gray-400 hover:text-gray-300'
@@ -65,7 +65,7 @@ export default function CharacterEditor({ character, onChange }: Props) {
         </button>
         <button
           onClick={() => setActiveTab('storylines')}
-          className={`px-6 py-3 font-medium transition-colors ${
+          className={`px-3 sm:px-6 py-3 font-medium transition-colors ${
             activeTab === 'storylines'
               ? 'text-blue-400 border-b-2 border-blue-400'
               : 'text-gray-400 hover:text-gray-300'

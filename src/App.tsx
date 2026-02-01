@@ -307,24 +307,24 @@ function App() {
       {/* Footer */}
       <footer className="bg-slate-800/50 backdrop-blur-sm border-t border-slate-700/50 mt-auto">
         <div className="container mx-auto px-4 py-6">
-          <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-slate-400">
+          <div className="flex flex-col md:flex-row items-center justify-between gap-6 text-slate-400 text-sm">
             <div className="flex items-center gap-2">
               <i className="fas fa-code text-blue-400"></i>
               <span className="font-medium">Fuderation Character Editor</span>
               <span className="text-slate-500">v1.0.0</span>
             </div>
-            <div className="flex items-center gap-4 text-sm">
-              <span className="flex items-center gap-2">
+            <div className="flex flex-wrap items-center justify-center md:justify-end gap-x-6 gap-y-3">
+              <span className="flex items-center gap-1.5 whitespace-nowrap">
                 <i className="fas fa-database text-purple-400"></i>
-                IndexedDB 本地存储
+                本地存储
               </span>
-              <span className="flex items-center gap-2">
+              <span className="flex items-center gap-1.5 whitespace-nowrap">
                 <i className="fas fa-file-code text-purple-400"></i>
-                支持 JSON 格式
+                JSON 格式
               </span>
-              <span className="flex items-center gap-2">
+              <span className="flex items-center gap-1.5 whitespace-nowrap">
                 <i className="fas fa-heart text-red-400"></i>
-                Made with React
+                React
               </span>
             </div>
           </div>

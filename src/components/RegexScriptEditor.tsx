@@ -32,7 +32,7 @@ export default function RegexScriptEditor({ storyline, onChange }: Props) {
         <h3 className="font-medium">正则脚本 ({storyline.regex_scripts.length})</h3>
         <button onClick={addScript} className="btn btn-primary flex items-center gap-2">
           <i className="fas fa-plus"></i>
-          添加脚本
+          <span className="hidden sm:inline">添加脚本</span>
         </button>
       </div>
 
